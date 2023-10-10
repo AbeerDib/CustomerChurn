@@ -19,7 +19,7 @@ css="""
 """
 st.markdown(css,unsafe_allow_html=True)
 st.title(":chart_with_downwards_trend: Telecom Customer churn  ")
-st.write("hello world")
+
 
 st.write('<span class="custom-text">Data source: <a class="custom-text" href="https://www.kaggle.com/code/bhartiprasad17/customer-churn-prediction/input" target="_blank"> https://www.kaggle.com/code/bhartiprasad17/customer-churn-prediction/input</a></span>', unsafe_allow_html=True)
 st.write("")
