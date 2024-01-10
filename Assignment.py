@@ -28,7 +28,8 @@ st.write("")
 #'<span class="custom-text">This text has a custom color.</span>', unsafe_allow_html=True
 
 #df=pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
-df=pd.read_csv("https://raw.githubusercontent.com/AbeerDib/Final/main/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+df=pd.read_csv("https://github.com/AbeerDib/CustomerChurn/blob/main/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+#df=pd.read_csv("https://raw.githubusercontent.com/AbeerDib/Final/main/WA_Fn-UseC_-Telco-Customer-Churn.csv")
 st.write("<h3 style='color: #FA2A55;'>1-Interactive dataframe </h3>",unsafe_allow_html=True)
 text1 = '<h9 style="line-height: 0.5;">The telecom customer churn dataset originally has  contains 7043 rows (customers) and 21 columns (features) while only 2 columns are numercial (Monthly and total charges).</h9>'
 text2 = '<h9 style="line-height: 0.5;">Use the side bars to choose the columns and rows you want to see.</h9>'
